@@ -1,0 +1,153 @@
+*{
+    margin:0%;
+    padding: 0;
+    font-family:sans-serif;
+}
+.main{
+width:100%;
+height:100vh;
+position: relative;
+overflow: hidden;
+background: linear-gradient(to right,#9c27b0,#8ecdff);
+
+
+}
+
+
+
+.nav{
+    width: 80%;
+    position:sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    flex: basis 10%;
+    
+}
+
+.logo img{
+    width: 50px;
+    
+    
+    
+}
+.nav-links{
+    flex: 1;
+    text-align:right;
+
+
+}
+.nav-links ul li{
+    list-style:none;
+    display: inline-block;
+    margin: 30px 35px;
+
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration:none
+}
+.information{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 50%;
+    left:-10%;
+    transform:translate(-50);
+
+}
+#circle{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: -450px;;
+    left: 0;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    transition: 1s;
+
+}
+.categories img{
+    width: 70px;
+
+}
+.categories{
+    position: absolute;
+    display: flex;
+    color: #fff;
+}
+.categories div{
+     margin-left:30px;
+}
+.categories div p{
+    margin-top: 8px;
+
+}
+
+.one{
+    top: 450px;
+    right: 50px;
+
+
+}
+.two{
+    top: 100px;
+    left: 350px;
+    transform: rotate(-90deg);
+
+}
+.three{
+    top: 450px;
+    left: 50px;
+    transform: rotate(-180deg);
+
+}
+.four{
+    bottom: 150px;
+    right: 350px;
+    transform: rotate(-270deg);
+}
+.mobile{
+    width: 300px;
+    position:absolute;
+    left: 35%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+.controls{
+    position: absolute;
+    right: -30%;
+    transform: translateY(-50%);
+    text-align: center;
+
+}
+.controls h3{
+    margin: 15px 0;
+    color: #fff;
+}
+#upbtn{
+    width: 15px;
+    cursor: pointer;
+   
+}
+#downbtn{
+    width: 15px;
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+.overlay{
+    width: 0;
+    height: 0;
+    border-top: 500px solid #fffcfc;
+    border-right: 500px solid transparent;
+    border-bottom:500px solid rgb(249, 245, 249);
+    border-left:500px solid rgb(250, 250, 246);
+    position: absolute;
+    left: 0;
+    top: -450px;
+    
+}
+
